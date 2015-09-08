@@ -2,13 +2,12 @@
 
 .btn-default{
   margin: 15px;
-}
-.btn-default,
-.btn-default:hover {
   color: #333;
   text-shadow: none;
   background-color: rgba(255, 0, 0, 0);
   border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
 }
 .btn-default:hover {
   color: white;
@@ -19,7 +18,7 @@ h1,h2,h3,h4,h5{
   color: #F55E00;
 }
 p,
-p:after,
+p:hover:after,
 p:focus,
 p:hover{
   font-family: 'Covered By Your Grace';
@@ -33,6 +32,9 @@ p:hover{
 }
 a{
   color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 a:hover{
   opacity: 0.5;
@@ -74,22 +76,44 @@ body {
   padding: 5px;
 }
 #logo img{
-  width: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
 }
 #center_text{
-  margin-top: 100px;
+  max-width: 600px;
+  margin: 100px auto;
   padding: 20px 0px;
 }
 .contact{
   border: 2px solid  #90D492;
   border-radius: 5px;
 }
-#hidden_story{
+.container{
   font-size: 115%;
-  background-color: rgba(255, 255, 255, 0.20);
-  display: none;
-  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+  display: ;
+  padding: 15px
+  margin: 25px auto
+}
+#story{
+  max-width: 600px;
+  margin: 250px auto 0px;
+  padding: 50px;
+
+}
+#aspiring{
+  text-align: left;
+}
+#inprogress{
+  text-align: right;
+}
+#projects{
+  margin: 150px auto;
+  padding: 50px;
+}
+#pawtohoof{
+  max-width: 250px;
+  max-height: 250px;
   padding: 15px;
-  margin: 50px 0px;
 }
